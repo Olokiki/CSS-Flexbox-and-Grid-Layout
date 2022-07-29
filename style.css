@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.first-side {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.first-side h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.first-side p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.first-side p.bottom-1 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    padding-bottom: 80px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.first-side button {
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    border: none hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    color: hsl(31, 77%, 52%);
+    font-weight: 400;
+    min-height: 40px;
+    min-width: 150px;
+    transition: 0.8s;
+}
+
+.first-side button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    border-width: 3px;
+}
+
+.second-side {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+}
+
+.second-side h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.second-side p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.second-side p.bottom-2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    padding-bottom: 80px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.second-side button {
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    border: none hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    color: hsl(184, 100%, 22%);
+    font-weight: 400;
+    min-height: 40px;
+    min-width: 150px;
+    transition: 0.8s;
+}
+
+.second-side button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    border-width: 3px;
+}
+
+.third-side {
+    background-color: hsl(179, 100%, 13%);
+    padding: 3em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.third-side h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.third-side p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.third-side p.bottom-3 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    padding-bottom: 80px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.third-side button {
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    border: none hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    color: hsl(179, 100%, 13%);
+    font-weight: 400;
+    min-height: 40px;
+    min-width: 150px;
+    transition: 0.8s;
+}
+
+.third-side button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    border-width: 3px;
+}
